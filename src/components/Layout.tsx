@@ -50,7 +50,7 @@ export const Layout = () => (
             </a>
             <div className="flex gap-4 mt-3">
               <a href="https://linkedin.com/in/afsharsanam" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">LinkedIn</a>
-              <a href="https://github.com/afsharsanam" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">GitHub</a>
+              <a href="https://github.com/afshar5a" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">GitHub</a>
             </div>
           </div>
         </div>
