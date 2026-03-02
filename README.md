@@ -1,108 +1,65 @@
-# Afshar Sanam AI Lab
+# as-ai-lab
 
-Computational Economics, AI Systems Architecture & Structural Modeling
+A React + TypeScript web app built with **Vite**, **Tailwind CSS**, and **shadcn/ui**.
 
----
+This repository was originally bootstrapped via Lovable. It has been converted to a standard, self-managed codebase you can edit freely and deploy from GitHub.
 
-## Overview
+## Quick start
 
-This repository contains applied research, modeling experiments, and simulation work exploring the economic and structural behavior of intelligent systems.
+Prereqs: Node.js 18+.
 
-The focus is on:
-
-- AI systems economics (cost structure, margin resilience, growth sensitivity)
-- Computational modeling of macro-level economic signals
-- Optimization under architectural and economic constraints
-- Structural modeling of system behavior under scale
-
-This is an independent research initiative.
-
----
-
-## Research Domains
-
-### 1. AI Systems Economics
-
-Exploring how architectural decisions influence economic viability.
-
-Topics include:
-
-- Cost per Effective Request (CPER) modeling  
-- Inference cost decomposition (input/output tokens + overhead)  
-- Cache efficiency modeling  
-- Margin sensitivity under growth  
-- Break-even threshold analysis  
-- Cost–latency–accuracy tradeoffs  
-
----
-
-### 2. Economic Signal Modeling
-
-Quantitative analysis of macro-level economic communication.
-
-Topics include:
-
-- Sentiment modeling in central bank communications  
-- Narrative regime detection  
-- Change-point analysis  
-- Exploratory predictive modeling  
-- Economic text analytics  
-
----
-
-### 3. Optimization & Structural Modeling
-
-Applied mathematical modeling of systems under constraint.
-
-Topics include:
-
-- Multi-parameter optimization  
-- Constraint-based system design  
-- Feedback loop modeling  
-- Stability analysis under growth  
-
----
-
-## Repository Structure
-
-```
-/notebooks        → Research notebooks & exploratory analysis  
-/models           → Core modeling functions and reusable components  
-/simulations      → Scenario simulations & sensitivity analysis  
-/papers           → Draft research notes and structured write-ups  
-/experiments      → Early-stage modeling experiments  
+```bash
+npm install
+npm run dev
 ```
 
-Structure may evolve as research deepens.
+Build for production:
 
----
+```bash
+npm run build
+npm run preview
+```
 
-## Guiding Principles
+## Project structure
 
-- Model before scaling  
-- Treat AI systems as economic systems  
-- Separate capability from economic viability  
-- Maintain technical rigor  
-- Keep assumptions explicit  
+- `src/` – application source
+- `index.html` – document metadata + entry point
+- `vite.config.ts` – Vite configuration
 
----
+## Deployment (pick one)
 
-## Status
+### Option A: Vercel
+1. Push this repo to GitHub.
+2. In Vercel: **Add New → Project → Import** the repo.
+3. Framework preset: **Vite**
+4. Build command: `npm run build`
+5. Output directory: `dist`
 
-Active research & modeling environment.  
-Work is iterative and may change significantly.
+Custom domain:
+- In Vercel project settings → **Domains** → add your domain.
+- Follow Vercel’s DNS instructions (usually a CNAME for subdomains, or A records for apex).
 
----
+### Option B: Netlify
+1. Push this repo to GitHub.
+2. In Netlify: **Add new site → Import an existing project**.
+3. Build command: `npm run build`
+4. Publish directory: `dist`
 
-## Independence Statement
+Custom domain:
+- Site settings → **Domain management** → add domain → follow DNS prompts.
 
-All work in this repository is developed independently and does not use confidential or employer information.  
-Any examples or scenarios are generic and intended for research purposes only.
+### Option C: Cloudflare Pages
+1. Push this repo to GitHub.
+2. In Cloudflare Pages: **Create a project → Connect to Git**.
+3. Framework preset: **Vite**
+4. Build command: `npm run build`
+5. Build output: `dist`
 
----
+Custom domain:
+- Pages → **Custom domains** → add domain.
 
-## Contact
+## Notes for maintainers
 
-For research discussions or collaboration inquiries:
+- Any Lovable-only tooling has been removed (e.g. `lovable-tagger` and the `.lovable/` planning folder).
+- If you previously relied on Lovable’s “Publish” button, use one of the GitHub-based hosts above instead.
 
-afshar.sanam@gmail.com
