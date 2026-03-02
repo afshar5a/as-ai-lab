@@ -129,7 +129,7 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-px bg-border rounded overflow-hidden">
           {frameworkCards.map((c, i) => (
             <motion.div key={c.num} {...fade} transition={{ ...fade.transition, delay: i * 0.1 }} className="bg-card p-6 md:p-8 flex flex-col">
-              <p className="font-mono text-3xl text-primary/30 mb-4">{c.num}</p>
+              <p className="font-mono text-3xl text-primary/100 mb-4">{c.num}</p>
               <h3 className="font-medium text-foreground text-lg mb-3">{c.title}</h3>
               <p className="text-sm text-dim leading-relaxed mb-6 flex-1">{c.desc}</p>
               <div className="flex flex-wrap gap-1.5">
