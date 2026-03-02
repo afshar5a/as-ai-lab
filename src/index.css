@@ -17,7 +17,7 @@
     --secondary: 35 15% 90%;
     --secondary-foreground: 30 15% 15%;
     --muted: 35 10% 92%;
-    --muted-foreground: 30 10% 38%;
+    --muted-foreground: 30 10% 32%;
     --accent: 165 70% 32%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
@@ -39,7 +39,7 @@
     --glow: 165 80% 45%;
     --surface-elevated: 40 10% 99%;
     --rule: 35 15% 82%;
-    --dim: 30 8% 35%;
+    --dim: 30 8% 28%;
   }
 
   .dark {
