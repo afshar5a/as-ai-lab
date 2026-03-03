@@ -28,7 +28,7 @@ export const Topbar = () => {
               <span className="font-mono text-sm font-bold text-primary-foreground">AS</span>
             </div>
             <div className="hidden sm:block">
-              <p className="text-sm font-medium text-foreground leading-none">Afshar Sanam</p>
+              <p className="text-sm font-medium text-foreground leading-none">AS</p>
               <p className="text-[11px] text-dim mt-0.5">AI Lab</p>
             </div>
           </Link>
@@ -68,7 +68,7 @@ export const Topbar = () => {
               {theme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
             </button>
             <a
-              href="mailto:afshar@afsharsanam.com"
+              href="mailto:contact@asailab.com"
               className="hidden lg:inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-medium text-primary-foreground bg-primary rounded hover:opacity-90 transition-opacity"
             >
               Connect <ArrowUpRight size={12} />
@@ -114,7 +114,7 @@ export const Topbar = () => {
               ))}
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
                 <a
-                  href="mailto:afshar@afsharsanam.com"
+                  href="mailto:contact@asailab.com"
                   className="mt-8 inline-flex items-center gap-2 text-lg text-primary font-mono"
                 >
                   Connect <ArrowUpRight size={16} />
