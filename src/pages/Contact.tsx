@@ -21,7 +21,7 @@ const ContactPage = () => {
     e.preventDefault();
     const subject = encodeURIComponent(`[${category}] Research Inquiry from ${name}`);
     const body = encodeURIComponent(`From: ${name} (${email})\nCategory: ${category}\n\n${message}`);
-    window.location.href = `mailto:afshar.sanam@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@asailab.com?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
