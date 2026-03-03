@@ -27,7 +27,7 @@ export const Layout = () => (
               <div className="w-8 h-8 rounded bg-primary flex items-center justify-center">
                 <span className="font-mono text-xs font-bold text-primary-foreground">AS</span>
               </div>
-              <span className="font-medium text-foreground text-sm">Afshar Sanam AI Lab</span>
+              <span className="font-medium text-foreground text-sm">AS AI Lab</span>
             </div>
             <p className="text-sm text-dim leading-relaxed max-w-xs">
               Computational Economics, AI Systems Architecture & Structural Modeling
@@ -45,18 +45,18 @@ export const Layout = () => (
           </div>
           <div>
             <p className="text-[11px] uppercase tracking-widest text-dim mb-4">Contact</p>
-            <a href="mailto:afshar@afsharsanam.com" className="text-sm text-primary hover:underline block mb-2">
-              afshar@afsharsanam.com
+            <a href="mailto:contact@asailab.com" className="text-sm text-primary hover:underline block mb-2">
+              contact@asailab.com
             </a>
             <div className="flex gap-4 mt-3">
-              <a href="https://linkedin.com/in/afsharsanam" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">LinkedIn</a>
-              <a href="https://github.com/afshar5a" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">GitHub</a>
+              <a href="https://linkedin.com/in/asailab" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">LinkedIn</a>
+              <a href="https://github.com/asailab" target="_blank" rel="noopener noreferrer" className="text-sm text-dim hover:text-foreground transition-colors">GitHub</a>
             </div>
           </div>
         </div>
         {/* Bottom */}
         <div className="border-t border-border py-5 flex items-center justify-between text-[11px] text-dim">
-          <span>© {new Date().getFullYear()} Afshar Sanam AI Lab. Independent research.</span>
+          <span>© {new Date().getFullYear()} AS AI Lab. Independent research.</span>
           <Link to="/policies" className="hover:text-foreground transition-colors">Policies</Link>
         </div>
       </div>
