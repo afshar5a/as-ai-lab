@@ -19,7 +19,7 @@ const AboutPage = () => (
           About the <span className="italic">Lab</span>
         </h1>
         <p className="text-dim text-lg max-w-2xl mb-16">
-          Afshar Sanam AI Lab is founded as an independent research space focused on computational economics, AI systems architecture, and structural modeling.
+          AS AI Lab is founded as an independent research space focused on computational economics, AI systems architecture, and structural modeling.
         </p>
       </motion.div>
 
@@ -44,7 +44,7 @@ const AboutPage = () => (
         <motion.div {...fade} transition={{ ...fade.transition, delay: 0.1 }} className="border border-border rounded bg-card p-8">
           <h2 className="text-xl font-medium text-foreground mb-5">About the Founder</h2>
           <p className="text-sm text-dim leading-relaxed mb-4">
-            Afshar Sanam is a technologist and researcher focused on the structural economics of AI systems. His background spans software engineering, data systems, and applied research in computational economics.
+            AS is a technologist and researcher focused on the structural economics of AI systems. His background spans software engineering, data systems, and applied research in computational economics.
           </p>
           <p className="text-sm text-dim leading-relaxed mb-4">
             This lab exists as an independent research project — built outside professional responsibilities, using no employer data or resources. It reflects a long-standing interest in how architectural decisions shape economic outcomes in technology systems.
@@ -53,9 +53,9 @@ const AboutPage = () => (
             The work is exploratory and research-oriented. It is not affiliated with, endorsed by, or connected to any current or former employer.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="mailto:afshar@afsharsanam.com" className="text-primary hover:underline">Email →</a>
-            <a href="https://linkedin.com/in/afsharsanam" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LinkedIn →</a>
-            <a href="https://github.com/afsharsanam" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub →</a>
+            <a href="mailto:contact@asailab.com" className="text-primary hover:underline">Email →</a>
+            <a href="https://linkedin.com/in/asailab" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LinkedIn →</a>
+            <a href="https://github.com/asailab" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub →</a>
           </div>
         </motion.div>
       </div>
