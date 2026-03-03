@@ -227,7 +227,7 @@ const Index = () => {
               <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-primary mb-3">04</p>
               <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">About</h2>
               <p className="text-dim leading-relaxed">
-                Afshar Sanam AI Lab is founded as an independent research space focused on computational economics, AI systems architecture, and structural modeling.
+                AS AI Lab is founded as an independent research space focused on computational economics, AI systems architecture, and structural modeling.
               </p>
             </div>
             <div className="border-l border-border pl-8 lg:pl-12">
