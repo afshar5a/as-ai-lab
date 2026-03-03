@@ -2,8 +2,6 @@
 
 A React + TypeScript web app built with **Vite**, **Tailwind CSS**, and **shadcn/ui**.
 
-This repository was originally bootstrapped via Lovable. It has been converted to a standard, self-managed codebase you can edit freely and deploy from GitHub.
-
 ## Quick start
 
 Prereqs: Node.js 18+.
@@ -57,9 +55,4 @@ Custom domain:
 
 Custom domain:
 - Pages → **Custom domains** → add domain.
-
-## Notes for maintainers
-
-- Any Lovable-only tooling has been removed (e.g. `lovable-tagger` and the `.lovable/` planning folder).
-- If you previously relied on Lovable’s “Publish” button, use one of the GitHub-based hosts above instead.
 
