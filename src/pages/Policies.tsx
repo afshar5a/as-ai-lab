@@ -25,7 +25,7 @@ const PoliciesPage = () => (
         <motion.div {...fade}>
           <h2 className="text-[11px] uppercase tracking-[0.2em] text-dim mb-6">Independence Statement</h2>
           <div className="space-y-4 text-sm text-dim leading-relaxed border-l-2 border-border pl-6">
-            <p>Afshar Sanam AI Lab is an independent, personal research project. It is not affiliated with, endorsed by, or connected to any current or former employer.</p>
+            <p>AS AI Lab is an independent, personal research project. It is not affiliated with, endorsed by, or connected to any current or former employer.</p>
             <p>All work is conducted outside professional responsibilities and work hours. No employer resources, data, systems, or proprietary information are used in any capacity.</p>
             <p>All examples, figures, and illustrations are generic and intended for research purposes only. Any resemblance to specific company data or systems is coincidental.</p>
           </div>
