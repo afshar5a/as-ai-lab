@@ -21,7 +21,7 @@ const ContactPage = () => {
     e.preventDefault();
     const subject = encodeURIComponent(`[${category}] Research Inquiry from ${name}`);
     const body = encodeURIComponent(`From: ${name} (${email})\nCategory: ${category}\n\n${message}`);
-    window.location.href = `mailto:afshar@afsharsanam.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:afshar.sanam@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
@@ -37,7 +37,7 @@ const ContactPage = () => {
             Interested in the lab's research? Reach out for collaboration, speaking, media, or open-source discussions. This is not a consulting or services inquiry form.
           </p>
           <p className="text-sm text-dim mb-12">
-            Direct email: <a href="mailto:afshar@afsharsanam.com" className="text-primary hover:underline">afshar@afsharsanam.com</a>
+            Direct email: <a href="mailto:contact@asailab.com" className="text-primary hover:underline">contact@asailab.com</a>
           </p>
         </motion.div>
 
@@ -45,7 +45,7 @@ const ContactPage = () => {
           {sent ? (
             <div className="border-l-2 border-primary pl-6 py-4">
               <p className="font-medium text-foreground mb-2">Email client opened</p>
-              <p className="text-sm text-dim">Your email client should have opened with the inquiry pre-filled. If not, email directly at afshar@afsharsanam.com.</p>
+              <p className="text-sm text-dim">Your email client should have opened with the inquiry pre-filled. If not, email directly at contact@asailab.com.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5">
